@@ -1,0 +1,104 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+    color: #213547;
+  }
+  .registerBox{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    width: 30rem;
+    height: 3rem;
+    border-radius: 0.4rem;
+    border-width: 1px;
+    text-align: left;
+  }
+  
+  button {
+    border: 1px solid;
+    border-color: black;
+    padding: 0.6em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    background-color: white;
+  }
+  
+  
+  .emailbtn
+  {
+    text-align: right;
+    border:none;
+  }
+  .emailbtn:hover {
+    color: skyblue;
+  }
+  
+  .loginbtn{
+    margin-top: 1rem;
+  }
+  .loginbtn:hover
+  {
+    color: skyblue;
+    border-color: skyblue;
+  }
+  
+  
+  .registerbtn1{
+    margin-top: 1rem;
+    width: 240px;
+    margin-right: 3px;
+
+  }
+  .registerbtn1:hover
+  {
+    color: skyblue;
+    border-color: skyblue;
+  }
+
+  .registerbtn2{
+    margin-top: 1rem;
+    width: 240px;
+    margin-left: 3px;
+
+  }
+  .registerbtn2:hover
+  {
+    color: skyblue;
+    border-color: skyblue;
+  }
+
+
+  .trueEmail
+  {
+    border-color: rgb(10, 212, 10);
+  }
+  .trueEmail:focus
+  {
+    outline: rgb(10, 212, 10);
+  }
+  
+  .falseEmail
+  {
+    border-color: red;
+  }
+  .falseEmail:focus
+  {
+    outline: red;
+  
+  }
+  input {
+    text-align: center;
+    margin-top: 1rem;
+  }
